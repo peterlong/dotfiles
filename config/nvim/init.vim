@@ -153,7 +153,7 @@ if has('autocmd') && !exists('autocommands_loaded')
 
     autocmd BufNewFile,BufRead,BufWrite *.md syntax match Comment /\%^---\_.\{-}---$/
 
-    autocmd! BufWritePost * Neomake
+    " autocmd! BufWritePost * Neomake
 endif
 
 " code folding settings
