@@ -14,7 +14,7 @@ Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] } | Plug 
 " Plug 'tpope/vim-endwise' " automatically add end in ruby
 " Plug 'tpope/vim-ragtag' " endings for html, xml, etc. - ehances surround
 " Plug 'tpope/vim-surround' " mappings to easily delete, change and add such surroundings in pairs, such as quotes, parens, etc.
-" Plug 'benmills/vimux' " tmux integration for vim
+Plug 'benmills/vimux' " tmux integration for vim
 Plug 'vim-airline/vim-airline' " fancy statusline
 Plug 'vim-airline/vim-airline-themes' " themes for vim-airline
 " Plug 'scrooloose/syntastic' " syntax checking for vim
@@ -40,24 +40,24 @@ Plug 'vim-airline/vim-airline-themes' " themes for vim-airline
 
 " language-specific plugins
 " Plug 'mattn/emmet-vim', { 'for': 'html' } " emmet support for vim - easily create markdup wth CSS-like syntax
-" Plug 'gregsexton/MatchTag', { 'for': 'html' } " match tags in html, similar to paren support
-" Plug 'othree/html5.vim', { 'for': 'html' } " html5 support
-" Plug 'pangloss/vim-javascript', { 'for': 'javascript' } " JavaScript support
-" Plug 'moll/vim-node', { 'for': 'javascript' } " node support
-" Plug 'jelera/vim-javascript-syntax', { 'for': 'javascript' } " JavaScript syntax plugin
+Plug 'gregsexton/MatchTag', { 'for': 'html' } " match tags in html, similar to paren support
+Plug 'othree/html5.vim', { 'for': 'html' } " html5 support
+Plug 'pangloss/vim-javascript', { 'for': 'javascript' } " JavaScript support
+Plug 'moll/vim-node', { 'for': 'javascript' } " node support
+Plug 'jelera/vim-javascript-syntax', { 'for': 'javascript' } " JavaScript syntax plugin
 " Plug 'mxw/vim-jsx', { 'for': 'jsx' } " JSX support
-" Plug 'elzr/vim-json', { 'for': 'json' } " JSON support
-" Plug 'Quramy/tsuquyomi', { 'for': 'typescript', 'do': 'npm install' } " extended typescript support - works as a client for TSServer
-" Plug 'Shougo/vimproc.vim', { 'do': 'make' } " interactive command execution in vim
-" Plug 'leafgarland/typescript-vim', { 'for': 'typescript' } " typescript support
+Plug 'elzr/vim-json', { 'for': 'json' } " JSON support
+Plug 'Quramy/tsuquyomi', { 'for': 'typescript', 'do': 'npm install' } " extended typescript support - works as a client for TSServer
+Plug 'Shougo/vimproc.vim', { 'do': 'make' } " interactive command execution in vim
+Plug 'leafgarland/typescript-vim', { 'for': 'typescript' } " typescript support
 " Plug 'juvenn/mustache.vim', { 'for': 'mustache' } " mustache support
 " Plug 'mustache/vim-mustache-handlebars' " mustach support
 " Plug 'digitaltoad/vim-jade', { 'for': 'jade' } " jade support
 " Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' } " sass scss syntax support
 " Plug 'wavded/vim-stylus', { 'for': ['stylus', 'markdown'] } " markdown support
 " Plug 'groenewege/vim-less', { 'for': 'less' } " less support
-" Plug 'ap/vim-css-color', { 'for': ['css','stylus','scss'] } " set the background of hex color values to the color
-" Plug 'hail2u/vim-css3-syntax', { 'for': 'css' } " CSS3 syntax support
+Plug 'ap/vim-css-color', { 'for': ['css','stylus','scss'] } " set the background of hex color values to the color
+Plug 'hail2u/vim-css3-syntax', { 'for': 'css' } " CSS3 syntax support
 " Plug 'itspriddle/vim-marked', { 'for': 'markdown', 'on': 'MarkedOpen' } " Open markdown files in Marked.app - mapped to <leader>m
 " Plug 'tpope/vim-markdown', { 'for': 'markdown' } " markdown support
 " Plug 'fatih/vim-go', { 'for': 'go' } " go support
