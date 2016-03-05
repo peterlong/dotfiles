@@ -63,6 +63,10 @@ if [ -z "$BACKGROUND" ]; then
     export BACKGROUND="dark";
 fi
 
+unalias run-help
+autoload run-help
+HELPDIR=/usr/local/share/zsh/help
+
 BASE16_SHELL="$DOTFILES/.config/base16-shell/$THEME.$BACKGROUND.sh"
 source $BASE16_SHELL
 
