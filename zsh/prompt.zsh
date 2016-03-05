@@ -65,6 +65,7 @@ precmd() {
     vcs_info
     print -P '\n%F{205}%~'
 }
+setopt PROMPT_SUBST
 
 export PROMPT='%(?.%F{205}.%F{red})❯%f '
 export RPROMPT='`git_dirty`%F{241}$vcs_info_msg_0_%f `git_arrows``suspended_jobs`'
